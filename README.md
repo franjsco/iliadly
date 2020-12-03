@@ -19,7 +19,7 @@
 
 Per utilizzarlo è necessario essere connessi con rete iliad.
 
-<a href="https://asciinema.org/a/pvb8xqDtOczwuZjahN08wosWY" target="_blank"><img src="https://asciinema.org/a/pvb8xqDtOczwuZjahN08wosWY.svg"/></a>
+<a href="https://asciinema.org/a/J0b6ypguvXvDl51QqkIxLQnw6" target="_blank"><img src="https://asciinema.org/a/J0b6ypguvXvDl51QqkIxLQnw6.svg" /></a>
 
 
 ## Installazione
