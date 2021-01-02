@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+<h1 align="center">iliadly 📱</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/franjsco/iliadly/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/franjsco/iliadly/blob/master/LICENSE" target="_blank">
+    <img alt="License: GPL--3.0--or--later" src="https://img.shields.io/github/license/franjsco/tomadoro" />
+  </a>
+  <a href="https://twitter.com/franjsco" target="_blank">
+    <img alt="Twitter: franjsco" src="https://img.shields.io/twitter/follow/franjsco.svg?style=social" />
+  </a>
+</p>
 
-You can use the [editor on GitHub](https://github.com/franjsco/iliadly/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+>  Consulta i contatori della tua offerta iliad direttamente dal terminale.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+Per utilizzarlo è necessario essere connessi con rete iliad.
 
-# Header 1
-## Header 2
-### Header 3
+<a href="https://asciinema.org/a/J0b6ypguvXvDl51QqkIxLQnw6" target="_blank"><img src="https://asciinema.org/a/J0b6ypguvXvDl51QqkIxLQnw6.svg" /></a>
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Installazione
 
-**Bold** and _Italic_ and `Code` text
+1. Clonare il repository:
+    ```sh
+    git clone https://github.com/franjsco/iliadly ~/.iliadly
 
-[Link](url) and ![Image](src)
+    cd ~/.iliadly
+    ```
+
+2. Installare le dipendenze
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+3. Concedere i permessi di esecuzione allo script
+    ```sh
+    chmod +x iliadly.py
+    ```
+
+4. Creare collegamento simbolico in /usr/local/bin:
+    ```sh
+    cd /usr/local/bin
+    sudo ln -s ~/.iliadly/iliadly.py iliadly
+    ```
+
+
+## Utilizzo
+
+Per mostrare i contatori, aprire il terminale e lanciare il comando:
+```sh
+iliadly
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/franjsco/iliadly/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
