@@ -1,4 +1,3 @@
-<h1 align="center">iliadly 📱</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/franjsco/iliadly/graphs/commit-activity" target="_blank">
@@ -11,10 +10,6 @@
     <img alt="Twitter: franjsco" src="https://img.shields.io/twitter/follow/franjsco.svg?style=social" />
   </a>
 </p>
-
-
->  Consulta i contatori della tua offerta iliad direttamente dal terminale.
-
 
 
 Per utilizzarlo è necessario essere connessi con rete iliad.
