@@ -1,6 +1,5 @@
 <h1 align="center">iliadly 📱</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/franjsco/iliadly/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
@@ -20,7 +19,10 @@
 Per utilizzarlo è necessario essere connessi con rete iliad.
 
 <a href="https://asciinema.org/a/J0b6ypguvXvDl51QqkIxLQnw6" target="_blank"><img src="https://asciinema.org/a/J0b6ypguvXvDl51QqkIxLQnw6.svg" /></a>
-
+## Requisiti
+- GNU/Linux
+- Python3
+- pip3
 
 ## Installazione
 
